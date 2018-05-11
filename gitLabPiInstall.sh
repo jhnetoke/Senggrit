@@ -28,7 +28,7 @@ sudo apt-get install gitlab-ce
 
 sudo gitlab-ctl reconfigure
 
-echo "After reboot visit Raspberry Pi IP and configure from their"
+echo "After reboot visit Raspberry Pi IP and configure from there"
 
 echo "Here is your IP"
 hostname -I
