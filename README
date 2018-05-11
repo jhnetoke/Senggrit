@@ -1,2 +1,7 @@
 Honestly I am really lazy and sick of having to type things for installing certain projects. 
 Some of you may have the same idea, so here you go!
+
+What each script does:
+
+gitLabPiInstall.sh:
+This script will install gitLab onto your RaspberryPi. Have your own git repository at home if you want to keep things private!
