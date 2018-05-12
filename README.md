@@ -15,3 +15,6 @@ This script will install gitLab onto your RaspberryPi. Have your own git reposit
 
 #### elkStack.sh:
 This script will install elkStack for your linux machine. Although it won't configure it for you... just install it.
+
+#### piHoleInstall.sh
+This script will install piHole for your raspberryPi. It helps block ads on your personal network. It won't configure it for you, that's up to you.
