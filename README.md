@@ -10,8 +10,8 @@ Some of you may have the same idea, so here you go!
 
 What each script does:
 
-####gitLabPiInstall.sh:
+#### gitLabPiInstall.sh:
 **This script will install gitLab onto your RaspberryPi. Have your own git repository at home if you want to keep things private!**
 
-####elkStack.sh
+#### elkStack.sh
 **This script will install elkStack for your linux machine. Although it won't configure it for you... just install it.**
