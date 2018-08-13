@@ -18,3 +18,6 @@ This script will install elkStack for your linux machine. Although it won't conf
 
 #### piHoleInstall.sh
 This script will install piHole for your raspberryPi. It helps block ads on your personal network. It won't configure it for you, that's up to you.
+
+#### phrackDownload.sh
+This script will download all of phrack magazine and put them in nice folders to easily access. This script does this in probably the most least efficient way possible but... it works! Please enjoy!
