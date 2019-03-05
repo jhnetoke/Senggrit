@@ -34,8 +34,8 @@ sudo /etc/init.d/nginx reload
 sudo mkdir -p /var/www/html/ebooks
 sudo git clone https://github.com/seblucas/cops.git /var/www/html/ebooks/
 sudo wget /var/www/html/ebooks https://getcomposer.org/composer.phar
-sudo /var/www/html/ebooks/php composer.phar global require "fxp/composer-asset-plugin:~1.1"
-sudo /var/www/html/ebooks/php composer.phar install --no-dev --optimize-autoloader
+sudo php /var/www/html/ebooks/composer.phar global require "fxp/composer-asset-plugin:~1.1"
+sudo php /var/www/html/ebooks/composer.phar install --no-dev --optimize-autoloader
 mkdir -p /home/pi/storage/eBooks
 sudo cp /var/www/html/ebooks/config_local.php.example /var/www/html/ebooks/config_local.php
 localIp=`hostname -I`
