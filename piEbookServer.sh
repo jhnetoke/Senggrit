@@ -32,13 +32,12 @@ sudo apt-get install php7.0-fpm -y
 sudo apt-get install php7.0-gd php7.0-sqlite3 php7.0-json php7.0-intl php7.0-xml php7.0-mbstring php7.0-zip -y
 sudo /etc/init.d/nginx reload
 sudo mkdir -p /var/www/html/ebooks
-cd /var/www/html/ebooks
-sudo git clone https://github.com/seblucas/cops.git .
-sudo wget https://getcomposer.org/composer.phar
-sudo php composer.phar global require "fxp/composer-asset-plugin:~1.1"
-sudo php composer.phar install --no-dev --optimize-autoloader
+sudo git clone https://github.com/seblucas/cops.git /var/www/html/ebooks/
+sudo wget /var/www/html/ebooks https://getcomposer.org/composer.phar
+sudo /var/www/html/ebooks/php composer.phar global require "fxp/composer-asset-plugin:~1.1"
+sudo /var/www/html/ebooks/php composer.phar install --no-dev --optimize-autoloader
 mkdir -p /home/pi/storage/eBooks
-sudo cp config_local.php.example config_local.php
+sudo cp /var/www/html/ebooks/config_local.php.example /var/www/html/ebooks/config_local.php
 localIp=`hostname -I`
 echo "Use this to connect to your web server http://$localIp"
 echo "Finished installing dependencies. Hit ENTER to continue..."
