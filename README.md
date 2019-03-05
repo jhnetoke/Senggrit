@@ -14,10 +14,13 @@ What each script does:
 This script will install gitLab onto your RaspberryPi. Have your own git repository at home if you want to keep things private!
 
 #### elkStack.sh:
-This script will install elkStack for your linux machine. Although it won't configure it for you... just install it.
+This script will install elkStack for your Linux machine. Although it won't configure it for you... just install it.
 
 #### piHoleInstall.sh
 This script will install piHole for your raspberryPi. It helps block ads on your personal network. It won't configure it for you, that's up to you.
 
 #### phrackDownload.sh
 This script will download all of phrack magazine and put them in nice folders to easily access. This script does this in probably the most least efficient way possible but... it works! Please enjoy!
+
+#### piEbookServer.sh
+This script is from 2 raspberry Pi projects [RaspberryPi Ebook Storage](https://pimylifeup.com/raspberry-pi-ebook-server/) and [Install Nginx on RaspberryPi](https://pimylifeup.com/raspberry-pi-nginx/). This script makes the install simple. Keep in mind it just installs dependencies, it doesn't do the config for you...
