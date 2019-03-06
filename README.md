@@ -24,3 +24,6 @@ This script will download all of phrack magazine and put them in nice folders to
 
 #### piEbookServer.sh
 This script is from 2 raspberry Pi projects [RaspberryPi Ebook Storage](https://pimylifeup.com/raspberry-pi-ebook-server/) and [Install Nginx on RaspberryPi](https://pimylifeup.com/raspberry-pi-nginx/). This script makes the install simple. Keep in mind it just installs dependencies, it doesn't do the config for you...
+
+#### piOpenVPNServer.sh
+This script is from a raspberry Pi project [RaspberryPiOpenVPNServer](https://pimylifeup.com/raspberry-pi-vpn-server/). This script will install the dependencies and will pull the script to start installing the VPN software. The rest is up to you...
