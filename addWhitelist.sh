@@ -1,10 +1,10 @@
 #!/bin/bash
 
-i=0
+i=1
 
 fileLength=$(wc -l < whitelist.txt)
 
-while [ $i -lt $fileLength-1 ]
+while [ $i -lt $((fileLength - 1)) ]
 do
 domain=$(sed "${i}q;d" whitelist.txt)
 pihole -w -nr $domain
