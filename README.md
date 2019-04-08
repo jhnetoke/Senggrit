@@ -27,3 +27,6 @@ This script is from 2 raspberry Pi projects [RaspberryPi Ebook Storage](https://
 
 #### piOpenVPNServer.sh
 This script is from a raspberry Pi project [RaspberryPiOpenVPNServer](https://pimylifeup.com/raspberry-pi-vpn-server/). This script will install the dependencies and will pull the script to start installing the VPN software. The rest is up to you...
+
+#### addWhitelist.sh
+This script will add domains in a file called whitelist.txt parse line by line and add the domain to the piHole whitelist. Once it hits the bottom of the list it will restart the DNS service and reboot the Pi.
