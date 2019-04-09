@@ -11,8 +11,7 @@ pihole -w -nr $domain
 i=$[$i+1]
 done
 
-finalDomain=$(sed "${fileLength}q;d" whitelist.txt)
-pihole -w -f $finalDomain
+pihole restartdns
 
 echo "Finished"
 echo ""
