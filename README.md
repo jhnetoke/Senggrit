@@ -30,3 +30,6 @@ This script is from a raspberry Pi project [RaspberryPiOpenVPNServer](https://pi
 
 #### addWhitelist.sh
 This script will add domains in a file called whitelist.txt parse line by line and add the domain to the piHole whitelist. Once it hits the bottom of the list it will restart the DNS service and reboot the Pi.
+
+#### gsmSniffingDependencies.sh
+Installs files and applications so that the HackRF can be used to sniff GSM traffic
