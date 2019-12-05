@@ -37,3 +37,5 @@ Installs files and applications so that the HackRF can be used to sniff GSM traf
 #### vulscanNmapUpdater.sh
 Used to pull CSV's for the vulnScan NMAP vulnerability scanner [vulscan](https://github.com/scipag/vulscan) please make sure to run this script in the same directory as the cloned git repo of vulscan 
 
+#### installMetasploit.sh
+Used to install metasploit. 
