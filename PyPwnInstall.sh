@@ -127,4 +127,4 @@ echo "[+] In order for the new RAM allocation to take effect, we must"
 echo "[+] now reboot the pi. Press [Ctrl-C] to exit without rebooting."
 echo ""
 read
-reboot
+reboot --
