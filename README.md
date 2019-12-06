@@ -39,3 +39,6 @@ Used to pull CSV's for the vulnScan NMAP vulnerability scanner [vulscan](https:/
 
 #### installMetasploit.sh
 Used to install metasploit. 
+
+#### installAsterisk.sh
+Installed packages required for an asterisk server, installs asterisk, and install files to be paired with GoTrunk from the following [repository](https://github.com/GoTrunk/asterisk-config.git).
