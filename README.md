@@ -42,3 +42,6 @@ Used to install metasploit.
 
 #### installAsterisk.sh
 Installed packages required for an asterisk server, installs asterisk, and install files to be paired with GoTrunk from the following [repository](https://github.com/GoTrunk/asterisk-config.git).
+
+#### goPhishPostfixInstall.sh
+Install packages for [GoPhish](https://getgophish.com/), [CertBot](https://certbot.eff.org/), and [Postfix](http://www.postfix.org/) for the creation of a Phishing server.
