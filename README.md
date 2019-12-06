@@ -1,4 +1,5 @@
 ## lazyScripts
+
 Honestly I am really lazy and sick of having to type things for installing certain projects. 
 Some of you may have the same idea, so here you go!
 
@@ -8,7 +9,7 @@ Some of you may have the same idea, so here you go!
 
 !!!This code is distributed as is and if you don't trust it, don't use it!!!
 
-What each script does:
+### What each script does:
 
 #### gitLabPiInstall.sh:
 This script will install gitLab onto your RaspberryPi. Have your own git repository at home if you want to keep things private!
@@ -20,7 +21,7 @@ This script will install elkStack for your Linux machine. Although it won't conf
 This script will install piHole for your raspberryPi. It helps block ads on your personal network. It won't configure it for you, that's up to you.
 
 #### phrackDownload.sh
-This script will download all of phrack magazine and put them in nice folders to easily access. This script does this in probably the most least efficient way possible but... it works! Please enjoy!
+This script will download all of [Phrack](http://phrack.org/) magazine and put them in nice folders to easily access. This script does this in probably the most least efficient way possible but... it works! Please enjoy!
 
 #### piEbookServer.sh
 This script is from 2 raspberry Pi projects [RaspberryPi Ebook Storage](https://pimylifeup.com/raspberry-pi-ebook-server/) and [Install Nginx on RaspberryPi](https://pimylifeup.com/raspberry-pi-nginx/). This script makes the install simple. Keep in mind it just installs dependencies, it doesn't do the config for you...
@@ -32,16 +33,16 @@ This script is from a raspberry Pi project [RaspberryPiOpenVPNServer](https://pi
 This script will add domains in a file called whitelist.txt parse line by line and add the domain to the piHole whitelist. Once it hits the bottom of the list it will restart the DNS service and reboot the Pi.
 
 #### gsmSniffingDependencies.sh
-Installs files and applications so that the HackRF can be used to sniff GSM traffic
+Installs files and applications so that the HackRF can be used to sniff GSM traffic.
 
 #### vulscanNmapUpdater.sh
-Used to pull CSV's for the vulnScan NMAP vulnerability scanner [vulscan](https://github.com/scipag/vulscan) please make sure to run this script in the same directory as the cloned git repo of vulscan 
+Used to pull CSV's for the vulnScan NMAP vulnerability scanner [vulscan](https://github.com/scipag/vulscan) please make sure to run this script in the same directory as the cloned git repo of vulscan.
 
 #### installMetasploit.sh
-Used to install metasploit. 
+Used to install [Metasploit](https://www.metasploit.com/). 
 
 #### installAsterisk.sh
-Installed packages required for an asterisk server, installs asterisk, and install files to be paired with GoTrunk from the following [repository](https://github.com/GoTrunk/asterisk-config.git).
+Installs packages required for an asterisk server, installs asterisk, and install files to be paired with GoTrunk from the following [repository](https://github.com/GoTrunk/asterisk-config.git).
 
 #### goPhishPostfixInstall.sh
 Install packages for [GoPhish](https://getgophish.com/), [CertBot](https://certbot.eff.org/), and [Postfix](http://www.postfix.org/) for the creation of a Phishing server.
