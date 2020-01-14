@@ -48,4 +48,4 @@ Installs packages required for an asterisk server, installs asterisk, and instal
 Install packages for [GoPhish](https://getgophish.com/), [CertBot](https://certbot.eff.org/), and [Postfix](http://www.postfix.org/) for the creation of a Phishing server.
 
 #### autoSnapper.sh
-Used to automatically snapshot a virtual machine in VirtualBox this script was copied from the following article [TechRepublic](https://www.techrepublic.com/article/how-to-automate-virtualbox-snapshots-with-the-vboxmanage-command/)
+Used to automatically snapshot a virtual machine in VirtualBox this script was copied from the following article [TechRepublic](https://www.techrepublic.com/article/how-to-automate-virtualbox-snapshots-with-the-vboxmanage-command/).
