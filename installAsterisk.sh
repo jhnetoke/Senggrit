@@ -43,7 +43,7 @@ if [ $dynamic == 0 ]; then
 fi
 echo "Configuring for a DYNAMIC IP"
 (cd /etc/asterisk && git checkout dynamic-ip)
-(cd /etc/asterisk && touch new_number && chmod +x new_number && echo "#!/bin/bash" >> new_number && echo "" >> new_number && echo "rm extensions.conf" >> new_number && echo 'sed "s/NEWNUMBER/$1/" < ext-template.conf > extensions.conf' >> new_number && echo 'asterisk -rx "core restart now"' >> new_number)
+(cd /etc/asterisk && touch new_number && chmod +x new_number && echo '#!/bin/bash' >> new_number && echo "" >> new_number && echo "rm extensions.conf" >> new_number && echo 'sed "s/NEWNUMBER/$1/" < ext-template.conf > extensions.conf' >> new_number && echo 'asterisk -rx "core restart now"' >> new_number)
 echo "[+] Done"
 echo "[+] Press ENTER to reboot now"
 read INPUT
