@@ -33,8 +33,8 @@ apt install git-core -y
 wget -P /usr/src/ https://downloads.asterisk.org/pub/telephony/certified-asterisk/asterisk-certified-13.21-current.tar.gz
 tar -zxvf /usr/src/asterisk-certified-13.21-current.tar.gz
 rm -r /usr/src/asterisk-certified-13.21-current.tar.gz
-bash /usr/src/asterisk-certified-13.21-cert4/configure
-(cd /usr/src/asterisk-certified-13.21-cert4/ && make menuselect && make && make install && make samples && make config)
+bash /usr/src/asterisk-certified-13.21-cert6/configure
+(cd /usr/src/asterisk-certified-13.21-cert6/ && make menuselect && make && make install && make samples && make config)
 /etc/init.d/asterisk start
 (cd /etc && mv asterisk asterisk.orig && git clone https://github.com/GoTrunk/asterisk-config.git asterisk)
 if [ $dynamic == 0 ]; then
