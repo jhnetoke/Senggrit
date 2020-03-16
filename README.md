@@ -1,4 +1,4 @@
-## lazyScripts
+## Senggrip
 
 Honestly I am really lazy and sick of having to type things for installing certain projects. 
 Some of you may have the same idea, so here you go!
