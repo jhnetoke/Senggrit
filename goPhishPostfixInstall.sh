@@ -18,6 +18,7 @@ sudo apt dist-upgrade -y
 sudo apt autoremove -y
 sudo apt autoclean -y
 sudo apt install postfix -y
+cp /etc/postfix/main.cf /etc/postfix/main.cf.backup
 sudo apt update -y
 sudo apt install software-properties-common -y
 sudo add-apt-repository universe
@@ -27,7 +28,7 @@ sudo apt install certbot -y
 sudo apt install unzip -y
 sudo certbot certonly --standalone --register-unsafely-without-email
 sudo wget https://github.com/gophish/gophish/releases/download/v0.9.0/gophish-v0.9.0-linux-64bit.zip
-unzip gophish-v0.8.0-linux-64bit.zip
-rm -r gophish-v0.8.0-linux-64bit.zip
+unzip gophish-v0.*.0-linux-64bit.zip
+rm -r gophish-v0.*.0-linux-64bit.zip
 echo "[+] Ready to configure"
 echo "[+] Done"
